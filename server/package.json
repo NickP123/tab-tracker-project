@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "start": "nodemon src/app.js",
     "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
     "express": "^4.16.2",
     "morgan": "^1.9.0",
     "nodemon": "^1.14.11",
-    "s": "^0.1.1"
+    "s": "^0.1.1",
+    "start": "^5.1.0"
   }
 }
